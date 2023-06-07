@@ -1,8 +1,4 @@
-cd *название папки*
-git checkout -b exam_01_07_06_2023
-git add *.h
-git add *.pro
-git add *.cpp
-git add Dockerfile
-git commit -m "exam"
-git push origin exam_01_07_06_2023
+git clone https://github.com/klim-komolov/exam_01_07_06_2023/edit/exam_01_07_06_2023
+cd exam_01_07_06_2023
+docker build -t komolov_exam.
+docker run -p 33333:33333 -d komolov_exam

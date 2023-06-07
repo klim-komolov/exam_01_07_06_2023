@@ -1,0 +1,8 @@
+cd *название папки*
+git checkout -b exam_01_07_06_2023
+git add *.h
+git add *.pro
+git add *.cpp
+git add Dockerfile
+git commit -m "exam"
+git push origin exam_01_07_06_2023
